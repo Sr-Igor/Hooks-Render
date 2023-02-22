@@ -8,6 +8,8 @@
 // pois assim como o memo, esse item cria uma comparação, e caso o item naão 
 // seja verdadeiramente pesado, pode ser mais vantajoso deixar o react realizar
 
+//Tambem pode ser utilizado para solcuinar problemas de shallow comparation
+
 import { useMemo, useState } from "react"
 
 export const UseMemoPage = () => {
